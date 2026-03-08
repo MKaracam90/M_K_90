@@ -90,3 +90,19 @@ footer{
     height: 24px;
     background-color: orange;
 }
+
+@media (max-width: 1080px){
+    img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90%;
+    }
+
+    .pic{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh; 
+    }
+}

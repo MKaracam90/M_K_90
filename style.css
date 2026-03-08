@@ -1,0 +1,92 @@
+body{
+    box-sizing: border-box;
+    background-color: olive;
+    padding: 24px;
+}
+
+img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    padding: 2px;
+    font-family: "Google Sans Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+a:hover{
+    color: white;
+}
+
+.scroll{
+    scroll-behavior: smooth;
+    color: red;
+}
+
+.navBar{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 16px;
+    padding-bottom: 24px;
+}
+
+#header{
+    padding-top: 24px;
+    font-family: "Google Sans Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+#id{
+    font-family: "Google Sans Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 24px;
+    scroll-behavior: smooth;
+    padding: 24px;
+    display: flex;
+}
+
+#Geschichte{
+    font-family: "Google Sans Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 24px;
+    scroll-behavior: smooth;
+    padding: 24px;
+    display: flex;
+}
+
+footer{
+    padding-left: 16px;
+    justify-content: left;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 24px;
+    background-color: orange;
+}
